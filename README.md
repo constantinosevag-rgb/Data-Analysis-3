@@ -23,6 +23,6 @@ The data is loaded directly from the repository URLs, so no manual download is n
 
 1. Clone the repository:
    ```bash
-   git clone <https://github.com/constantinosevag-rgb/Data-Analysis-3>
+   git clone https://github.com/constantinosevag-rgb/Data-Analysis-3
 
    pip install -r requirements.txt
