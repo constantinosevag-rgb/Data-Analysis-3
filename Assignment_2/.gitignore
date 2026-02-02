@@ -1,0 +1,5 @@
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+*.csv
+# *.gz  # Uncomment if you don't want to commit .gz files
