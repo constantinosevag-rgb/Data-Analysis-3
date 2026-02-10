@@ -17,9 +17,6 @@ env/
 .ipynb_checkpoints/
 *.ipynb_checkpoints
 
-# Data files (too large for GitHub)
-cs_bisnode_panel.csv
-*.csv
 
 # Mac
 .DS_Store
