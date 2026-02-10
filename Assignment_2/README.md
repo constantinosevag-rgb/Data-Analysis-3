@@ -198,6 +198,6 @@ pip install pandas numpy scikit-learn matplotlib seaborn openpyxl
 
 ## Authors
 
-- **Konstantinos Evagorou** - constantinosevagorou@gmail.com
+- **Konstantinos Evagorou** 
 - **Fazile Brahimi**
 ---
