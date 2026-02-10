@@ -145,13 +145,10 @@ Actual No    911   2,060
 
 ```
 ├── firm-growth-prediction.ipynb    # Main analysis (28 cells)
-├── summary_report.pdf               # Executive summary (≤5 pages)
-├── technical_report.pdf             # Technical documentation with code
+├── Summary Report - Firm Fast Growth Prediction.pdf               # Executive summary (≤5 pages)
+├── Technical Report - Firm Fast Growth Prediction.pdf             # Technical documentation with code
 ├── README.md                        # This file
 ├── .gitignore                       # Git exclusions
-├── ASSIGNMENT_COMPLIANCE.md         # Requirements verification
-├── FINAL_ANSWER.md                  # Complete summary
-├── VERIFICATION_CHECKLIST.md        # Detailed checklist
 ├── sales_by_growth.png              # Sales distribution (300 DPI)
 ├── age_distribution.png             # Age histogram (300 DPI)
 ├── growth_by_industry.png           # Industry analysis (300 DPI)
@@ -160,7 +157,7 @@ Actual No    911   2,060
 └── feature_importance.png           # Top 15 features (300 DPI)
 ```
 
-**Note:** `cs_bisnode_panel.csv` (97MB) not included in repository due to size.
+**Note:** `cs_bisnode_panel.csv` (107MB) not included in repository due to size.
 
 ## Installation & Requirements
 
@@ -201,16 +198,10 @@ pip install pandas numpy scikit-learn matplotlib seaborn openpyxl
 
 ## Authors
 
-- **Konstantinos Evagorou** (2508673) - constantinosevagorou@gmail.com
+- **Konstantinos Evagorou** - constantinosevagorou@gmail.com
 - **Fazile Brahimi**
 
-## License
-
-Academic project for Data Analysis 3 course at Central European University.
-
 ---
-
-*Last updated: February 10, 2026*
 
 3. **Execute the notebook:**
    ```bash
@@ -250,18 +241,6 @@ The model identifies ~1,000 high-growth firms annually (30% of actual fast-growt
 3. **Geographic Specificity:** Results specific to Hungarian SMEs (2012-2013)
 4. **Temporal Validity:** Pre-COVID economy may not reflect current dynamics
 5. **Industry Analysis:** Small subsamples limit within-sector model reliability
-
-## Future Work
-
-- Include financial ratios (leverage, liquidity, profitability)
-- Incorporate macroeconomic indicators
-- Test temporal stability (2014-2015 validation)
-- Ensemble methods combining model predictions
-- Deep learning approaches (neural networks)
-
-## License
-
-This project is created for academic purposes as part of Data Analysis 3 coursework at CEU.
 
 ## References
 
