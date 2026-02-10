@@ -2,7 +2,7 @@
 
 # Airbnb Pricing Prediction (Paris & Bordeaux)
 
-This repository contains the code for **Assignment 2** of Data Analysis 3. The goal was to build a pricing model for a hypothetical Airbnb management company operating in Paris, and then test its validity on a new city (Bordeaux).
+This repository contains the code for **Assignment 1** of Data Analysis 3. The goal was to build a pricing model for a hypothetical Airbnb management company operating in Paris, and then test its validity on a new city (Bordeaux).
 
 ## Project Overview
 We analyzed Airbnb listings data to predict price per night. The workflow includes:
