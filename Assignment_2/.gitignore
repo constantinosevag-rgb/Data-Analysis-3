@@ -28,9 +28,3 @@ cs_bisnode_panel.csv
 
 # VSCode
 .vscode/
-
-# Class notebooks (not needed in submission)
-ch17-*.ipynb
-Class_17_DA3.ipynb
-bisnode_firms_clean.csv
-bisnode_variable_names.xls
