@@ -155,9 +155,10 @@ Actual No    911   2,060
 ├── roc_curves.png                   # ROC curve comparison (300 DPI)
 ├── confusion_matrix.png             # Classification results (300 DPI)
 └── feature_importance.png           # Top 15 features (300 DPI)
-```
+└── cs_bisnode_panel.csv             # Data .csv format  
 
-**Note:** `cs_bisnode_panel.csv` (97MB) not included in repository due to size.
+```
+**Note:** `cs_bisnode_panel.csv` (97MB)
 
 ## Installation & Requirements
 
