@@ -145,8 +145,8 @@ Actual No    911   2,060
 
 ```
 ├── firm-growth-prediction.ipynb    # Main analysis (28 cells)
-├── Summary Report - Firm Fast Growth Prediction.pdf               # Executive summary (≤5 pages)
-├── Technical Report - Firm Fast Growth Prediction.pdf             # Technical documentation with code
+├── summary_report.pdf               # Executive summary (≤5 pages)
+├── technical_report.pdf             # Technical documentation with code
 ├── README.md                        # This file
 ├── .gitignore                       # Git exclusions
 ├── sales_by_growth.png              # Sales distribution (300 DPI)
@@ -157,7 +157,7 @@ Actual No    911   2,060
 └── feature_importance.png           # Top 15 features (300 DPI)
 ```
 
-**Note:** `cs_bisnode_panel.csv` (107MB) not included in repository due to size.
+**Note:** `cs_bisnode_panel.csv` (97MB) not included in repository due to size.
 
 ## Installation & Requirements
 
@@ -200,50 +200,4 @@ pip install pandas numpy scikit-learn matplotlib seaborn openpyxl
 
 - **Konstantinos Evagorou** - constantinosevagorou@gmail.com
 - **Fazile Brahimi**
-
----
-
-3. **Execute the notebook:**
-   ```bash
-   jupyter notebook firm-growth-prediction.ipynb
-   ```
-   Or open in VS Code and run all cells sequentially.
-
-4. **View reports:**
-   - Open `summary_report.html` in browser for executive summary
-   - Open `technical_report.html` for detailed methodology and code
-
-## Reproducibility
-
-All analyses use `random_state=42` for reproducibility. Results should be identical when re-run with the same data and software versions.
-
-## Industry-Specific Analysis
-
-Separate models were trained for:
-- **Manufacturing Sector** (n=4,021)
-- **Services Sector** (n=12,154)
-
-**Note:** Industry subsample models showed perfect AUC scores (1.000), indicating potential overfitting due to smaller sample sizes and limited feature diversity within industries. This limitation is documented in both reports.
-
-## Business Implications
-
-The model identifies ~1,000 high-growth firms annually (30% of actual fast-growth cases), enabling:
-- Targeted investor outreach
-- Loan portfolio optimization
-- Early partnership identification
-
-**Trade-off:** Missing 70% of fast-growth firms (high FN rate) to maintain manageable FP rate (18%) given asymmetric costs.
-
-## Limitations
-
-1. **Modest Predictive Power:** AUC=0.646 indicates firm growth has substantial random components
-2. **Low Recall:** Model captures only 26% of actual fast-growth firms
-3. **Geographic Specificity:** Results specific to Hungarian SMEs (2012-2013)
-4. **Temporal Validity:** Pre-COVID economy may not reflect current dynamics
-5. **Industry Analysis:** Small subsamples limit within-sector model reliability
-
-## References
-
-- Bisnode Dataset: [OSF Repository](https://osf.io/download/qsk8y/)
-- Methodology based on course materials from CEU Data Analysis 3
 ---
