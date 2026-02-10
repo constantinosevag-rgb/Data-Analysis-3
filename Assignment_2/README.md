@@ -270,4 +270,3 @@ This project is created for academic purposes as part of Data Analysis 3 coursew
 - Scikit-learn documentation: https://scikit-learn.org/
 
 ---
-*Last Updated: 2025*
