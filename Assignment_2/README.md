@@ -246,6 +246,4 @@ The model identifies ~1,000 high-growth firms annually (30% of actual fast-growt
 
 - Bisnode Dataset: [OSF Repository](https://osf.io/download/qsk8y/)
 - Methodology based on course materials from CEU Data Analysis 3
-- Scikit-learn documentation: https://scikit-learn.org/
-
 ---
